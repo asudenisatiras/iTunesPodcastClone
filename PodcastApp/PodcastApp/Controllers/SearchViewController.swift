@@ -62,9 +62,9 @@ extension SearchViewController: UISearchBarDelegate {
 extension SearchViewController {
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
-        label.text = "Search Something"
+        label.text = "Start Searching All Podcasts.."
         label.textAlignment = .center
-        label.font = UIFont.preferredFont(forTextStyle: .title1)
+        label.font = UIFont.preferredFont(forTextStyle: .title2)
         label.textColor = .systemPurple
         return label
     }

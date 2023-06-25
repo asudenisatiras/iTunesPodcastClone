@@ -29,6 +29,10 @@
 		D3AFFB752A4796E0008719E3 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB742A4796E0008719E3 /* EpisodeCell.swift */; };
 		D3AFFB772A479834008719E3 /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB762A479834008719E3 /* EpisodeModel.swift */; };
 		D3AFFB7A2A485417008719E3 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = D3AFFB792A485417008719E3 /* FeedKit */; };
+		D3AFFB7C2A4863AE008719E3 /* EpisodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB7B2A4863AE008719E3 /* EpisodeService.swift */; };
+		D3AFFB812A486FE1008719E3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB802A486FE1008719E3 /* Extension.swift */; };
+		D3AFFB832A48C94E008719E3 /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB822A48C94E008719E3 /* EpisodeViewModel.swift */; };
+		D3AFFB852A48D16A008719E3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB842A48D16A008719E3 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,10 @@
 		D3AFFB722A47956D008719E3 /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		D3AFFB742A4796E0008719E3 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
 		D3AFFB762A479834008719E3 /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		D3AFFB7B2A4863AE008719E3 /* EpisodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeService.swift; sourceTree = "<group>"; };
+		D3AFFB802A486FE1008719E3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D3AFFB822A48C94E008719E3 /* EpisodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
+		D3AFFB842A48D16A008719E3 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 		D3AFFB202A44A5CD008719E3 /* PodcastApp */ = {
 			isa = PBXGroup;
 			children = (
+				D3AFFB7F2A486FD1008719E3 /* Helpers */,
 				D3AFFB6D2A4706FC008719E3 /* ViewModel */,
 				D3AFFB672A46414C008719E3 /* ServiceAPI */,
 				D3AFFB642A46403B008719E3 /* Model */,
@@ -173,6 +182,7 @@
 				D3AFFB5A2A44AB9B008719E3 /* SearchViewController.swift */,
 				D3AFFB5C2A44ABAF008719E3 /* DownloadViewController.swift */,
 				D3AFFB722A47956D008719E3 /* EpisodeViewController.swift */,
+				D3AFFB842A48D16A008719E3 /* PlayerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				D3AFFB652A46404B008719E3 /* Search.swift */,
+				D3AFFB762A479834008719E3 /* EpisodeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				D3AFFB682A464163008719E3 /* SearchService.swift */,
+				D3AFFB7B2A4863AE008719E3 /* EpisodeService.swift */,
 			);
 			path = ServiceAPI;
 			sourceTree = "<group>";
@@ -206,9 +218,17 @@
 			isa = PBXGroup;
 			children = (
 				D3AFFB6E2A470713008719E3 /* SearchViewModel.swift */,
-				D3AFFB762A479834008719E3 /* EpisodeModel.swift */,
+				D3AFFB822A48C94E008719E3 /* EpisodeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3AFFB7F2A486FD1008719E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D3AFFB802A486FE1008719E3 /* Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,9 +374,13 @@
 				D3AFFB6F2A470713008719E3 /* SearchViewModel.swift in Sources */,
 				D3AFFB662A46404B008719E3 /* Search.swift in Sources */,
 				D3AFFB5B2A44AB9B008719E3 /* SearchViewController.swift in Sources */,
+				D3AFFB7C2A4863AE008719E3 /* EpisodeService.swift in Sources */,
 				D3AFFB632A44FE37008719E3 /* SearchCell.swift in Sources */,
+				D3AFFB852A48D16A008719E3 /* PlayerViewController.swift in Sources */,
+				D3AFFB832A48C94E008719E3 /* EpisodeViewModel.swift in Sources */,
 				D3AFFB222A44A5CD008719E3 /* AppDelegate.swift in Sources */,
 				D3AFFB2C2A44A5CD008719E3 /* PodcastApp.xcdatamodeld in Sources */,
+				D3AFFB812A486FE1008719E3 /* Extension.swift in Sources */,
 				D3AFFB5D2A44ABAF008719E3 /* DownloadViewController.swift in Sources */,
 				D3AFFB572A44A60A008719E3 /* MainTabBarController.swift in Sources */,
 				D3AFFB692A464163008719E3 /* SearchService.swift in Sources */,
