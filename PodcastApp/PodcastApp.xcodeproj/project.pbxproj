@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36775762A521497005D1D04 /* CoreData+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36775752A521497005D1D04 /* CoreData+Helpers.swift */; };
+		D36775782A521C9D005D1D04 /* FavoriteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36775772A521C9D005D1D04 /* FavoriteCellViewModel.swift */; };
 		D3AFFB222A44A5CD008719E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB212A44A5CD008719E3 /* AppDelegate.swift */; };
 		D3AFFB242A44A5CD008719E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB232A44A5CD008719E3 /* SceneDelegate.swift */; };
 		D3AFFB2C2A44A5CD008719E3 /* PodcastApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB2A2A44A5CD008719E3 /* PodcastApp.xcdatamodeld */; };
@@ -33,6 +35,7 @@
 		D3AFFB812A486FE1008719E3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB802A486FE1008719E3 /* Extension.swift */; };
 		D3AFFB832A48C94E008719E3 /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB822A48C94E008719E3 /* EpisodeViewModel.swift */; };
 		D3AFFB852A48D16A008719E3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFFB842A48D16A008719E3 /* PlayerViewController.swift */; };
+		D3F0E58A2A4CCBC9006D22A5 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0E5892A4CCBC9006D22A5 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D36775752A521497005D1D04 /* CoreData+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+Helpers.swift"; sourceTree = "<group>"; };
+		D36775772A521C9D005D1D04 /* FavoriteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCellViewModel.swift; sourceTree = "<group>"; };
 		D3AFFB1E2A44A5CD008719E3 /* PodcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AFFB212A44A5CD008719E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3AFFB232A44A5CD008719E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 		D3AFFB802A486FE1008719E3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		D3AFFB822A48C94E008719E3 /* EpisodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
 		D3AFFB842A48D16A008719E3 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		D3F0E5892A4CCBC9006D22A5 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,7 @@
 			children = (
 				D3AFFB622A44FE36008719E3 /* SearchCell.swift */,
 				D3AFFB742A4796E0008719E3 /* EpisodeCell.swift */,
+				D3F0E5892A4CCBC9006D22A5 /* FavoriteCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +226,7 @@
 			children = (
 				D3AFFB6E2A470713008719E3 /* SearchViewModel.swift */,
 				D3AFFB822A48C94E008719E3 /* EpisodeViewModel.swift */,
+				D36775772A521C9D005D1D04 /* FavoriteCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				D3AFFB802A486FE1008719E3 /* Extension.swift */,
+				D36775752A521497005D1D04 /* CoreData+Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -385,7 +394,10 @@
 				D3AFFB572A44A60A008719E3 /* MainTabBarController.swift in Sources */,
 				D3AFFB692A464163008719E3 /* SearchService.swift in Sources */,
 				D3AFFB242A44A5CD008719E3 /* SceneDelegate.swift in Sources */,
+				D36775762A521497005D1D04 /* CoreData+Helpers.swift in Sources */,
+				D36775782A521C9D005D1D04 /* FavoriteCellViewModel.swift in Sources */,
 				D3AFFB732A47956D008719E3 /* EpisodeViewController.swift in Sources */,
+				D3F0E58A2A4CCBC9006D22A5 /* FavoriteCell.swift in Sources */,
 				D3AFFB772A479834008719E3 /* EpisodeModel.swift in Sources */,
 				D3AFFB592A44AB8B008719E3 /* FavoriteViewController.swift in Sources */,
 				D3AFFB752A4796E0008719E3 /* EpisodeCell.swift in Sources */,
